@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const contactsApi = createApi({
   reducerPath: 'contactsApi',
   baseQuery: fetchBaseQuery({ 
-    baseUrl: 'http://localhost:5000/api', 
+    baseUrl: 'https://contact-manager-api.onrender.com/api', 
     prepareHeaders: (headers) => {
       headers.set('Content-Type', 'application/json');
       return headers;
