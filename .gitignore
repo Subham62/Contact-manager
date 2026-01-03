@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Production builds
+client/dist
+server/dist
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MongoDB
+data/
