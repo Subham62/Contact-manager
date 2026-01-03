@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Input from '../components/Input';
-import Textarea from '../components/Textarea';
+import Textarea from '../components/TextArea';
 import { validateEmail, validatePhone } from '../lib/utils';
 import { useCreateContactMutation } from '../features/api/contactsApi';
 
